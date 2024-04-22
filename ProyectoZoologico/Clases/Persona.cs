@@ -18,7 +18,10 @@ namespace ProyectoZoologico.Clases
 
         public Persona() { }
 
-
+        public override string ToString()
+        {
+            return $"Nombre: {name}, Edad: {age}, DNI: {dni}, Puesto: {puesto}";
+        }
         public Persona(string name, int age, int dni, int numero)
         {
             this.name = name;

@@ -29,7 +29,10 @@ namespace ProyectoZoologico.Clases
             this.Salud = 100;
         }
 
-       
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 
 
