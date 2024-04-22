@@ -44,9 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Clases\Animal.cs" />
+    <Compile Include="Clases\Menu.cs" />
+    <Compile Include="Clases\Operaciones.cs" />
+    <Compile Include="Clases\Opmenu.cs" />
     <Compile Include="Clases\Persona.cs" />
     <Compile Include="Clases\PlantasCarnivoras.cs" />
     <Compile Include="Clases\Zoologico.cs" />
+    <Compile Include="Interfaz\IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoZoologico.Clases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace ProyectoZoologico
     {
         static void Main(string[] args)
         {
+          
+           Zoologico zoonuevo = new Zoologico();
+            Menu menu = new Menu();
+            Menu.menu(zoonuevo);
         }
     }
 }
